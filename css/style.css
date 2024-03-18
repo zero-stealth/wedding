@@ -929,8 +929,54 @@ pre code {
     object-fit: cover;
   }
 
-  
+  .Venue-container {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    padding-top: 50px;
+    flex-direction: column;
+  }
 
+  .church{
+
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    object-position: center;
+
+  }
+  
+  .map{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .first-column {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+  }
+
+  .column h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .column-in {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .column-in h4 {
+    font-size: 1rem;
+  }
 }
 
   /* using it as global style for larger devices  */
@@ -955,6 +1001,9 @@ pre code {
     top: 0;
   }
 
+  .column {
+    flex-direction: row;
+  }
 
  
   }
@@ -4026,6 +4075,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  text-transform: capitalize !important;
 }
 
 .nav-link:hover, .nav-link:focus {
