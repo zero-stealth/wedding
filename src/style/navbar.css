@@ -4,12 +4,12 @@
     padding: 10px;
     display: flex;
     z-index: 99999;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
-    box-shadow: var(--nav-shadow);
+     background-color: #d64e92;
+     box-shadow: var(--nav-shadow);
     justify-content: space-between;
     transition: all 0.5s ease-in-out;
-     background-color:rgb(18, 75, 49);
     -webkit-transition: all 0.5s ease-in-out;
     
   }

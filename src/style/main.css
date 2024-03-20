@@ -4,7 +4,7 @@
     gap: 10px;
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgba(30,122,81,1) 0%, rgba(30,122,81,1) 35%, rgba(12,83,51,1) 100%);
+    background: var(--primary-color);
   }
 
   .home-top {
@@ -17,12 +17,12 @@
   }
 
   .home-top h2 {
-    font-size:1.4rem ;
+    font-size:1.8rem ;
     color: var(--background-color);
   }
 
   .home-top h1 {
-    font-size:2.7rem ;
+    font-size:3rem ;
     color: var(--secondary-color);
   }
 
@@ -31,7 +31,8 @@
     width: 100%;
     display: flex;
     padding: 10px;
-    color: #0d3a26;
+    font-size:1.2rem ;
+    color: #1b1b1b;
     text-align: center;
     flex-direction: column;
     background-size: cover;
@@ -48,19 +49,23 @@
     color: var(--secondary-color);
   }
 
+  .home-middle h3 {
+    text-transform: capitalize;
+  }
+
   .venue-top {
     gap: 10px;
     width: 100%;
     display: flex;
     padding: 10px;
     height: 300px;
-    color: #1b1b1b;
     text-align: center;
     flex-direction: column;
     background-size: cover;
     justify-content: center;
     background-position: center ;
     background-repeat: no-repeat;
+    color: var(--secondary-color);
     background-image: url('../assets/church.jpeg');
   }
 
@@ -70,7 +75,7 @@
     display: flex;
     padding: 10px;
     height: 300px;
-    color: #0d3a26;
+    color: #f267ac;
     text-align: center;
     flex-direction: column;
     background-size: cover;
@@ -103,25 +108,24 @@
     padding: 10px;
     text-align: center;
     flex-direction: column;
-    color: var(--background-color);
+    color: var(--secondary-color);
 
   }
 
   .gift-middle h1 {
     padding: 10px;
     font-size: 1rem;
-    text-decoration: underline;
     color: var(--secondary-color);
   }
 
   .gift-middle p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .venue-top a {
     font-weight: 600;
-    color: #1b1b1b;
     text-decoration: underline;
+    color: var(--secondary-color);
 
   }
 
@@ -143,18 +147,21 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: #e6e3e3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/rose-flowers.jpeg');
 
   }
 
-  .section-title h6 {
-    font-size: 1rem;
-    color: var(--secondary-color);
+  .home-top h6 {
+    font-size: 1.4rem;
+    color: var(--background-color);
   }
 
   .section-title h1 {
-    font-size: 1.5rem;
-    color: #0d3a26;
+    font-size: 2rem;
+    color: #f267ac;
   }
 
   .row {
@@ -162,6 +169,15 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  .row-inner  h4 {
+    font-size: 1.4rem;
+  }
+
+  .row-inner  p {
+    font-size: 1.6rem;
+
   }
 
   .row-top {
@@ -176,7 +192,7 @@
   }
 
   .entourage-middle{
-    background-color: #e6e3e3;
+    background-color: #fafafa;
   }
 
   .entourage-navtop {
@@ -194,6 +210,7 @@
   }
 
   .entourage-column {
+    gap: 10px;
     display: flex;
     padding:10px;
     flex-direction: column;
@@ -208,7 +225,8 @@
 
   .first-column, .second-column {
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    text-align: start;
     display: flex;
     gap: 10px;
   }
@@ -220,7 +238,8 @@
 
   .entourage-column h4 {
     font-weight: 600;
-    color:  #1e7a51;
+    color:  #df4f97;
+    text-transform: capitalize;
   }
 }
 
@@ -231,15 +250,10 @@
   }
 
   .gift-middle h1 {
-    padding: 10px;
     font-size: 1.3rem;
-    text-decoration: underline;
-    color: var(--secondary-color);
   }
 
-  .gift-middle p {
-    font-size: 1.1rem;
-  }
+
 }
 
 /* ipad pro screens & laptop */

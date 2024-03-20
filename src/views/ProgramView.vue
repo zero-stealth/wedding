@@ -3,14 +3,10 @@
     <NavBar />
     <div class="home-main">
       <div class="home-top">
+        <h6>Event</h6>
         <h2>Wedding Program</h2>
       </div>
       <div class="program-middle">
-        <div class="section-title">
-          <h6>Event</h6>
-          <h1>Program</h1>
-        </div>
-
         <div class="row">
           <!-- Eventp stat -->
           <div class="row-top">

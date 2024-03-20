@@ -3,10 +3,12 @@
 @media screen {
   * {
     /* colors */
-    --secondary-color: #eaaa00ff;
+    --secondary-color: #ffcc00;
     --background-color: #ffffffff;
-    --primary-color: radial-gradient(circle, rgba(30,122,81,1) 0%, rgba(30,122,81,1) 35%, rgba(12,83,51,1) 100%);
+    --primary-color: radial-gradient(circle, rgba(242,103,172,1) 0%, rgba(221,82,150,1) 35%, rgba(221,82,150,1) 100%);
 
+    /* background: rgb(239,187,191); */
+   
 
     margin: 0;
     padding: 0;
@@ -14,8 +16,8 @@
   }
 
   body {
-    font-weight: 300;
-    font-family: 'Poppins';
+    font-weight: normal;
+    font-family: 'Arapey';
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     background-color: var(--secondary-light);

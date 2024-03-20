@@ -16,9 +16,6 @@
               <h1>Groomsmen</h1>
               <div class="column-in">
                 <div>
-                  <h4>Ps. Brian Omondi</h4>
-                </div>
-                <div>
                   <h4>⁠Brian Nzuki</h4>
                 </div>
                 <div>
@@ -47,7 +44,7 @@
                 </div>
 
                 <div>
-                  <h4> ⁠Kennedy Ndani</h4>
+                  <h4>⁠Kennedy Ndani</h4>
                 </div>
               </div>
             </div>
@@ -55,19 +52,19 @@
               <h1>Best Man</h1>
               <div class="column-in">
                 <div>
-                  <h4>Brian Omondi</h4>
+                  <h4>Ps Brian Omondi</h4>
                 </div>
               </div>
               <h1>Maid Of Honor</h1>
               <div class="column-in">
                 <div>
-                  <h4> Elizabeth Syano</h4>
+                  <h4>Elizabeth Syano</h4>
                 </div>
               </div>
               <h1>MC</h1>
               <div class="column-in">
                 <div>
-                  <h4> Eugene micah</h4>
+                  <h4>Eugene micah</h4>
                 </div>
               </div>
             </div>
@@ -105,13 +102,7 @@
                   <h4>Sarah Nzuki</h4>
                 </div>
                 <div>
-                  <h4>Sarah Nzuki</h4>
-                </div>
-                <div>
                   <h4>Jecinter Anyango</h4>
-                </div>
-                <div>
-                  <h4> Elizabeth Syano</h4>
                 </div>
               </div>
             </div>
