@@ -31,22 +31,17 @@
     width: 100%;
     display: flex;
     padding: 10px;
-    font-size:1.2rem ;
+    font-size:1.4rem ;
     text-align: center;
     flex-direction: column;
     background-size: cover;
-    background-position: center ;
+    color: var(--background-color);
+    background-position: center bottom ;
     background-repeat: no-repeat;
     background-image: url('../assets/wedding-rings.jpg');
     
   }
-  .home-middle h1 {
-    color: var(--secondary-color);
-  }
 
-  .home-middle h1 a {
-    color: var(--secondary-color);
-  }
 
   .home-middle h3 {
     text-transform: capitalize;
@@ -217,10 +212,10 @@
     padding:10px;
     flex-direction: column;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     justify-content: space-between;
-    background-image: url('../assets/flowers-branches.jpg');
+    background-image: url('../assets/heart.jpg');
   }
 
 
@@ -241,6 +236,7 @@
   .entourage-column h4 {
     font-weight: 600;
     font-size: 1rem;
+  color: var(--background-color);
     text-transform: capitalize;
   }
 }
