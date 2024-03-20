@@ -31,13 +31,16 @@
     width: 100%;
     display: flex;
     padding: 10px;
+    height: 100vh;
     font-size:1.4rem ;
     text-align: center;
     flex-direction: column;
     background-size: cover;
     color: var(--background-color);
+    background-color: #001f46ff;
     background-position: center bottom ;
     background-repeat: no-repeat;
+    background-image: url('../assets/Wedding.png');
     
   }
 
@@ -250,6 +253,9 @@
     font-size: 1.3rem;
   }
 
+  .home-middle {
+    background-size: contain;
+  }
 
 }
 

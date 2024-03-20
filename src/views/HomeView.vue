@@ -7,7 +7,7 @@
         <h1>Save Date</h1>
       </div>
       <div class="home-middle">
-        <span>With God's blessings and the love of our parents</span>
+        <!-- <span>With God's blessings and the love of our parents</span>
         <h1>
          Neema<br />
           & <br />
@@ -24,7 +24,7 @@
             >First Love Church</a
           >
           , Nakuru
-        </h4>
+        </h4> -->
       </div>
     </div>
     <NavigationComponent />
