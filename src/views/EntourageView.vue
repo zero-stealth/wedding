@@ -9,8 +9,7 @@
       <div class="entourage-navtop">
           Two hearts, one dream, and a lifetime of love to share. Save the date
         </div>
-         <div class="entourage-middle">
-        
+         <div class="entourage-middle"> 
           <div class="entourage-column">
             <div class="first-column">
               <h1>Groomsmen</h1>

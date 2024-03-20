@@ -1,5 +1,6 @@
 <template>
   <div class="navigation">
+    <h1> Navigation menu </h1>
     <RouterLink :to="{ name: 'Home' }" class="navigation-link">Home</RouterLink>
     <RouterLink :to="{ name: 'Venue' }" class="navigation-link">Venue</RouterLink>
     <RouterLink :to="{ name: 'Program' }" class="navigation-link">Program</RouterLink>

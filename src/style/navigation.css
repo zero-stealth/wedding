@@ -1,23 +1,28 @@
 @media screen {
   .navigation {
-    gap: 10px;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
     height: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+  
+  .navigation h1 {
+    font-size: 1.6rem;
+  }
 
   .navigation-link {
-    font-size: 1rem;
+    color: #1b1b1b;
     font-weight: 600;
-    color:  #0d3a26;
+    font-size: 1.2rem;
+    text-decoration: underline;
   }
 
   a,
   router-link {
+    color: #1b1b1b;
     text-decoration: none;
-    color: var(--background-color);
   }
 
   .router-link-active {

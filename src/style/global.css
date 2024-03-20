@@ -16,11 +16,12 @@
   }
 
   body {
+    color: #1b1b1b;
     font-weight: normal;
     font-family: 'Arapey';
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
-    background-color: var(--secondary-light);
+    background: var(--primary-color);
   }
 
   a,

@@ -32,7 +32,6 @@
     display: flex;
     padding: 10px;
     font-size:1.2rem ;
-    color: #1b1b1b;
     text-align: center;
     flex-direction: column;
     background-size: cover;
@@ -75,14 +74,15 @@
     display: flex;
     padding: 10px;
     height: 300px;
-    color: #f267ac;
     text-align: center;
     flex-direction: column;
     background-size: cover;
     justify-content: center;
-    background-position: center ;
     background-repeat: no-repeat;
-    background-image: url('../assets/roses.jpg');
+    color: var(--background-color);
+    background-position: center;
+    background-image: url('../assets/wine.jpg');
+
   }
 
   .gift-top {
@@ -198,6 +198,7 @@
   .entourage-navtop {
     color: var(--background-color);
     text-align: center;
+    font-size: 1.2rem;
     font-weight: 500;
     padding: 20px;
   }
@@ -205,6 +206,7 @@
     background-color: var(--secondary-color);
     color: var(--background-color);
     text-align: center;
+    font-size: 1.2rem;
     font-weight: 500;
     padding: 20px;
   }
@@ -214,14 +216,14 @@
     display: flex;
     padding:10px;
     flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     justify-content: space-between;
-    background-image: url('../assets/wedding.jpg');
+    background-image: url('../assets/flowers-branches.jpg');
   }
 
-  .entourage-top {
-    color: var(--background-color);
-    background-color: var(--secondary-color);
-  }
+
 
   .first-column, .second-column {
     flex-direction: column;
@@ -232,13 +234,13 @@
   }
 
   .entourage-column h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--secondary-color);
   }
 
   .entourage-column h4 {
     font-weight: 600;
-    color:  #df4f97;
+    font-size: 1rem;
     text-transform: capitalize;
   }
 }
