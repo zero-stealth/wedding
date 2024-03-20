@@ -6,7 +6,7 @@
     z-index: 99999;
     font-size: 1.2rem;
     font-weight: 300;
-     background-color: #d64e92;
+     background-color: #f0067b;
      box-shadow: var(--nav-shadow);
     justify-content: space-between;
     transition: all 0.5s ease-in-out;
